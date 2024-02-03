@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-gray-100 min-h-screen">
-        <Header />
+        <Header title="Dashboard" />
         <TopCards />
         <div className="p-4 grid md:grid-cols-3 grid-cols-1 gap-4">
           <BarChart />
